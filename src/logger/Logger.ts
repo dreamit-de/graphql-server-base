@@ -4,9 +4,10 @@ export interface Logger {
     readonly debugEnabled: boolean
 
     debug(logMessage: string, context?: unknown): void
+    logDebugIfEnabled(message: string, context?: unknown): void
     error(logMessage: string,
         error: Error,
-        customErrorName?: string,
+        customErrorName: string,
         context?: unknown): void
     info(logMessage: string, context?: unknown): void
     warn(logMessage: string, context?: unknown): void

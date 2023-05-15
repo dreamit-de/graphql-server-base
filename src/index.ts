@@ -14,7 +14,6 @@ export * from './metrics/MetricsClient'
 export * from './request/ContentType'
 export * from './request/GraphQLServerRequest'
 export * from './request/GraphQLRequestInfo'
-export * from './request/IsGraphQLServerRequest'
 
 export * from './response/GraphQLExecutionResult'
 export * from './response/GraphQLServerResponse'
