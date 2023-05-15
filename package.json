@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/dreamit/graphql-server-base#readme",
   "devDependencies": {
-    "@sgohlke/ts-base-dependencies": "1.0.8"
+    "@sgohlke/ts-base-dependencies": "1.0.9"
   },
   "peerDependencies": {
     "graphql": "^16.0.0"
