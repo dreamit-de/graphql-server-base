@@ -12,7 +12,7 @@ TypeScript declarations are provided within the project.
 
 **Note:**
 
-If you want to publish your own extension it is advised to install **@sgohlke/graphql-server-base** as **peerDependency**. This way you can define which version range your extension supports and it might be usable in multiple major versions of [@dreamit/graphql-server][1] (if they depend on the same range of this base module).
+If you want to publish your own extension it is advised to install **@dreamit/graphql-server-base** as **peerDependency**. This way you can define which version range your extension supports and it might be usable in multiple major versions of [@dreamit/graphql-server][1] (if they depend on the same range of this base module).
 Example in package.json for peerDependencies:
 ```json
 "peerDependencies": {
