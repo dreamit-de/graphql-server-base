@@ -21,3 +21,8 @@ updates:
       interval: "daily"
       time: "04:30"
       timezone: "Europe/Berlin"
+    groups:
+      dev-dependencies:
+        patterns:
+          - "*"
+          
