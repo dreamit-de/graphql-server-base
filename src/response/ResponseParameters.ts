@@ -18,5 +18,5 @@ export interface ResponseParameters {
     readonly customHeaders?: Record<string, string>,
     readonly executionResult?: ExecutionResult,
     readonly statusCode?: number,
-    readonly responseEndChunkFunction?: (executionResult: ExecutionResult) => unknown
+    readonly responseEndChunkFunction?: (executionResult: ExecutionResult | undefined) => unknown
 }
