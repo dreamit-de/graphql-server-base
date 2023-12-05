@@ -9,7 +9,8 @@
     "check": "tsc --noEmit --pretty",
     "lint": "eslint src/*.ts src/**/*.ts",
     "lintfix": "eslint --fix src/*.ts src/**/*.ts",
-    "prepack": "npm run build"
+    "prepack": "npm run build",
+    "test": "echo 'Not defined in this project'"
   },
   "repository": {
     "type": "git",
