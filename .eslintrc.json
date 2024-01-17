@@ -25,7 +25,6 @@
     },
     "plugins": [
         "@typescript-eslint/eslint-plugin",
-        "modules-newline",
         "unicorn",
         "import",
         "deprecation"
@@ -55,8 +54,6 @@
         "array-element-newline": ["error", "consistent"],
         "function-call-argument-newline": ["error", "consistent"],
         "function-paren-newline": ["error", "consistent"],
-        "modules-newline/import-declaration-newline": "error",
-        "modules-newline/export-declaration-newline": "error",
         "newline-per-chained-call": "error",
         "object-curly-newline": [
             "error",
