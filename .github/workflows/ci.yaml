@@ -2,5 +2,5 @@ name: Install and check graphql-server-base
 on: [push, workflow_dispatch]
 
 jobs:
-    graphqlserverbase:
-      uses: dreamit-de/workflows/.github/workflows/nodejs-ci.yml@main
+  graphqlserverbase:
+    uses: dreamit-de/workflows/.github/workflows/nodejs-ci.yml@main
