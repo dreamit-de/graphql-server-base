@@ -6,8 +6,8 @@ import { IncomingHttpHeaders } from 'node:http'
  * different server framework may already provide these field, if not they can easily be mapped.
  */
 export interface GraphQLServerRequest {
-    headers: IncomingHttpHeaders,
-    url?: string,
-    body?: unknown,
-    method?: string;
+    headers: IncomingHttpHeaders
+    url?: string
+    body?: unknown
+    method?: string
 }

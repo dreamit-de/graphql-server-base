@@ -1,5 +1,5 @@
-import {ExecutionResult} from 'graphql'
-import {GraphQLRequestInfo} from '..'
+import { ExecutionResult } from 'graphql'
+import { GraphQLRequestInfo } from '..'
 
 /**
  * Interface for execution results.

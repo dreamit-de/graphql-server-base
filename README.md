@@ -14,10 +14,11 @@ TypeScript declarations are provided within the project.
 
 If you want to publish your own extension it is advised to install **@dreamit/graphql-server-base** as **peerDependency**. This way you can define which version range your extension supports and it might be usable in multiple major versions of [@dreamit/graphql-server][1] (if they depend on the same range of this base module).
 Example in package.json for peerDependencies:
+
 ```json
 "peerDependencies": {
     "@dreamit/graphql-server-base": "^1.0.0"
-  }
+}
 ```
 
 ## Compatibility
@@ -27,8 +28,9 @@ Example in package.json for peerDependencies:
 ## Content of this base module
 
 All content of this module is exported in the root **index.ts** file. This means you can import it using an import statement like
+
 ```typescript
-import {MetricsClient} from '@dreamit/graphql-server-base'
+import { MetricsClient } from '@dreamit/graphql-server-base'
 ```
 
 ### Constants
@@ -44,7 +46,7 @@ Interfaces for creating your own **Logger** or **MetricsClient** are available i
 The following example shows how a **NoLogger** implementation of the **Logger** interface could be implemented.
 
 ```typescript
-import {Logger} from '@dreamit/graphql-server-base'
+import { Logger } from '@dreamit/graphql-server-base'
 
 /**
  * Logger implementation that does not log anything.
@@ -62,10 +64,12 @@ export class NoLogger implements Logger {
 
     debug(logMessage: string, context?: unknown): void {}
     logDebugIfEnabled(message: string, context?: unknown): void {}
-    error(logMessage: string,
+    error(
+        logMessage: string,
         error: Error,
         customErrorName: string,
-        context?: unknown): void {}
+        context?: unknown,
+    ): void {}
     info(logMessage: string, context?: unknown): void {}
     warn(logMessage: string, context?: unknown): void {}
 }
@@ -76,11 +80,9 @@ export class NoLogger implements Logger {
 If you have questions or issues please visit our [Issue page](https://github.com/dreamit/graphql-server-base/issues)
 and open a new issue if there are no fitting issues for your topic yet.
 
-
 ## License
 
 graphql-server is under [MIT-License](./LICENSE).
 
 [1]: https://github.com/dreamit-de/graphql-server
-
 [2]: https://github.com/graphql/graphql-js
