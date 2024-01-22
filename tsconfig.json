@@ -16,6 +16,6 @@
             "~/*": ["./*"],
         },
     },
-    "include": ["jest.config.js", "tsup.config.ts", "src/**/*", "tests/**/*"],
+    "include": ["tsup.config.ts", "src/**/*"],
     "exclude": ["node_modules"],
 }
