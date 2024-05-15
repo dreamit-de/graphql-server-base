@@ -23,7 +23,7 @@ Example in package.json for peerDependencies:
 
 ## Compatibility
 
-**@dreamit/graphql-server-base** is compatible with [graphql-js][2] version ^16.0.0. For compatibility with [@dreamit/graphql-server][1] please check **Compatibility** section in the **graphql-server** readme.
+**@dreamit/graphql-server-base** is compatible with [graphql-js][2] version ^16.0.0 and [funpara][3] version ^1.0.0. For compatibility with [@dreamit/graphql-server][1] please check **Compatibility** section in the **graphql-server** readme.
 
 ## Content of this base module
 
@@ -86,3 +86,4 @@ graphql-server is under [MIT-License](./LICENSE).
 
 [1]: https://github.com/dreamit-de/graphql-server
 [2]: https://github.com/graphql/graphql-js
+[3]: https://github.com/dreamit-de/funpara

@@ -1,6 +1,6 @@
 {
     "name": "@dreamit/graphql-server-base",
-    "version": "2.3.1",
+    "version": "2.4.0",
     "description": "Base package for @dreamit/graphql-server",
     "scripts": {
         "build": "tsup-node",
@@ -52,6 +52,7 @@
         "typescript-eslint": "7.9.0"
     },
     "peerDependencies": {
+        "@dreamit/funpara": "^1.0.0",
         "graphql": "^16.0.0"
     }
 }
