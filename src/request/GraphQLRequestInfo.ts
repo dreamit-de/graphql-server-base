@@ -1,4 +1,4 @@
-import { GraphQLErrorWithInfo } from '..'
+import { GraphQLErrorWithInfo } from '../'
 
 export interface GraphQLRequestInfo {
     query?: string

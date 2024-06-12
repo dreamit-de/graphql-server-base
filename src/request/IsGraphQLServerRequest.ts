@@ -1,4 +1,4 @@
-import { GraphQLRequestInfo, GraphQLServerRequest } from '..'
+import { GraphQLRequestInfo, GraphQLServerRequest } from '../'
 
 export function isGraphQLServerRequest(
     request: GraphQLServerRequest | GraphQLRequestInfo,

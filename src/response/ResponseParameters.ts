@@ -1,5 +1,5 @@
 import { ExecutionResult, GraphQLError, GraphQLFormattedError } from 'graphql'
-import { GraphQLServerRequest, GraphQLServerResponse, Logger } from '..'
+import { GraphQLServerRequest, GraphQLServerResponse, Logger } from '../'
 
 export interface ResponseParameters {
     readonly response: GraphQLServerResponse

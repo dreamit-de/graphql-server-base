@@ -10,11 +10,7 @@
         "forceConsistentCasingInFileNames": true,
         "strict": true,
         "declaration": true,
-        "baseUrl": ".",
-        "paths": {
-            "@/*": ["src/*"],
-            "~/*": ["./*"]
-        }
+        "baseUrl": "."
     },
     "include": ["tsup.config.ts", "src/**/*"],
     "exclude": ["node_modules"]
