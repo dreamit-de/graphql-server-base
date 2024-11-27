@@ -27,6 +27,8 @@ jobs:
         run: npm install --ignore-scripts
       - name: Check for linting issues
         run: npm run lint
+      - name: Check for formatting issues
+        run: npm run checkformat
       - name: Check types
         run: npm run check
 
