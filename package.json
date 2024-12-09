@@ -1,14 +1,14 @@
 {
     "name": "@dreamit/graphql-server-base",
-    "version": "2.4.1",
+    "version": "2.4.2",
     "description": "Base package for @dreamit/graphql-server",
     "scripts": {
         "build": "tsup-node",
         "check": "tsc --noEmit --pretty",
         "checkformat": "prettier --check .",
         "format": "prettier --cache --write .",
-        "lint": "eslint src/*.ts src/**/*.ts",
-        "lintfix": "eslint --fix src/*.ts src/**/*.ts",
+        "lint": "oxlint -c .oxlintrc.json",
+        "lintfix": "oxlint -c .oxlintrc.json --fix",
         "prepack": "npm run build",
         "test": "echo 'Not defined in this project'"
     },
@@ -41,15 +41,11 @@
     "homepage": "https://github.com/dreamit-de/graphql-server-base#readme",
     "devDependencies": {
         "@types/node": "22.10.1",
-        "eslint-plugin-deprecation": "3.0.0",
-        "eslint-plugin-import": "2.31.0",
-        "eslint-plugin-security": "3.0.1",
-        "eslint-plugin-unicorn": "56.0.1",
+        "oxlint": "0.14.1",
         "prettier": "3.4.2",
         "prettier-plugin-organize-imports": "4.1.0",
         "tsup": "8.3.5",
-        "typescript": "5.7.2",
-        "typescript-eslint": "8.17.0"
+        "typescript": "5.7.2"
     },
     "peerDependencies": {
         "@dreamit/funpara": "^1.0.0",
