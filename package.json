@@ -41,7 +41,7 @@
     "homepage": "https://github.com/dreamit-de/graphql-server-base#readme",
     "devDependencies": {
         "@types/node": "22.10.2",
-        "oxlint": "0.15.2",
+        "oxlint": "0.15.3",
         "prettier": "3.4.2",
         "prettier-plugin-organize-imports": "4.1.0",
         "tsup": "8.3.5",
