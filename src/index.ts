@@ -1,9 +1,5 @@
 /* eslint-disable import/no-internal-modules */
-/**
- * A GraphQL server implementation written in NodeJS/Typescript.
- * It uses the standard graphql library to receive GraphQL
- * requests and send back appropriate responses.
- */
+export { AggregateError, isAggregateError } from './error/AggregateError'
 export {
     FETCH_ERROR,
     GRAPHQL_ERROR,
