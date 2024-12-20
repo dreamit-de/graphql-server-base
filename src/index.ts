@@ -13,7 +13,10 @@ export {
 } from './error/ErrorNameConstants'
 export { GraphQLErrorWithInfo } from './error/GraphQLErrorWithInfo'
 
+export { LogEntry } from './logger/LogEntry'
+export { LogEntryInput } from './logger/LogEntryInput'
 export { Logger } from './logger/Logger'
+export { LogLevel } from './logger/LogLevel'
 
 export { MetricsClient } from './metrics/MetricsClient'
 
