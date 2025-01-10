@@ -45,7 +45,7 @@
         "prettier": "3.4.2",
         "prettier-plugin-organize-imports": "4.1.0",
         "tsup": "8.3.5",
-        "typescript": "5.7.2"
+        "typescript": "5.7.3"
     },
     "peerDependencies": {
         "@dreamit/funpara": "^1.0.0",
