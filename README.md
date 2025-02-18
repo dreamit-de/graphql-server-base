@@ -39,7 +39,7 @@ In **error/ErrorNameConstants.ts** constants to identify/display errors are prov
 
 ### Interfaces
 
-Interfaces for creating your own **Logger** or **MetricsClient** are available in this module. Additionally, the interfaces used by [@dreamit/graphql-server][1] for handling requests and responses are provided.
+Interfaces for creating your own **Logger** or **MetricsClient** are available in this module. Additionally, the interfaces used by [@dreamit/graphql-server][1] for handling requests and responses are provided. For validation and [Standard Schema][4] support the **StandardSchemaV1** interface is contained in the project and exported.
 
 ## Example
 
@@ -87,3 +87,4 @@ graphql-server is under [MIT-License](./LICENSE).
 [1]: https://github.com/dreamit-de/graphql-server
 [2]: https://github.com/graphql/graphql-js
 [3]: https://github.com/dreamit-de/funpara
+[4]: https://standardschema.dev/
