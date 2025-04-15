@@ -1,4 +1,4 @@
-/* eslint-disable array-type no-namespace */
+/* eslint-disable array-type no-namespace group-exports */
 
 /** The Standard Schema interface. */
 export interface StandardSchemaV1<Input = unknown, Output = Input> {
