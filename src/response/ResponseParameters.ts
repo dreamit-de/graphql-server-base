@@ -1,8 +1,12 @@
-import { ExecutionResult, GraphQLError, GraphQLFormattedError } from 'graphql'
-import { Logger } from '../logger/Logger'
-import { GraphQLServerRequest } from '../request/GraphQLServerRequest'
-import { StandardSchemaV1 } from '../validation/StandardSchemaV1'
-import { GraphQLServerResponse } from './GraphQLServerResponse'
+import {
+    type ExecutionResult,
+    GraphQLError,
+    type GraphQLFormattedError,
+} from 'graphql'
+import type { Logger } from '../logger/Logger'
+import type { GraphQLServerRequest } from '../request/GraphQLServerRequest'
+import type { StandardSchemaV1 } from '../validation/StandardSchemaV1'
+import type { GraphQLServerResponse } from './GraphQLServerResponse'
 
 export interface ResponseParameters {
     readonly context: unknown

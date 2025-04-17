@@ -1,5 +1,5 @@
-import { GraphQLRequestInfo } from './GraphQLRequestInfo'
-import { GraphQLServerRequest } from './GraphQLServerRequest'
+import type { GraphQLRequestInfo } from './GraphQLRequestInfo'
+import type { GraphQLServerRequest } from './GraphQLServerRequest'
 
 export function isGraphQLServerRequest(
     request: GraphQLServerRequest | GraphQLRequestInfo,

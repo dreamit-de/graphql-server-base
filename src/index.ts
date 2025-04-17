@@ -1,5 +1,6 @@
 /* eslint-disable import/no-internal-modules */
-export { AggregateError, isAggregateError } from './error/AggregateError'
+export { isAggregateError } from './error/AggregateError'
+export type { AggregateError } from './error/AggregateError'
 export {
     FETCH_ERROR,
     GRAPHQL_ERROR,
@@ -11,21 +12,21 @@ export {
     SYNTAX_ERROR,
     VALIDATION_ERROR,
 } from './error/ErrorNameConstants'
-export { GraphQLErrorWithInfo } from './error/GraphQLErrorWithInfo'
+export type { GraphQLErrorWithInfo } from './error/GraphQLErrorWithInfo'
 
-export { LogEntry } from './logger/LogEntry'
-export { LogEntryInput } from './logger/LogEntryInput'
-export { Logger } from './logger/Logger'
-export { LogLevel } from './logger/LogLevel'
+export type { LogEntry } from './logger/LogEntry'
+export type { LogEntryInput } from './logger/LogEntryInput'
+export type { Logger } from './logger/Logger'
+export type { LogLevel } from './logger/LogLevel'
 
-export { MetricsClient } from './metrics/MetricsClient'
+export type { MetricsClient } from './metrics/MetricsClient'
 
-export { ContentType } from './request/ContentType'
-export { GraphQLRequestInfo } from './request/GraphQLRequestInfo'
-export { GraphQLServerRequest } from './request/GraphQLServerRequest'
+export type { ContentType } from './request/ContentType'
+export type { GraphQLRequestInfo } from './request/GraphQLRequestInfo'
+export type { GraphQLServerRequest } from './request/GraphQLServerRequest'
 export { isGraphQLServerRequest } from './request/IsGraphQLServerRequest'
 
-export { GraphQLExecutionResult } from './response/GraphQLExecutionResult'
-export { GraphQLServerResponse } from './response/GraphQLServerResponse'
-export { ResponseParameters } from './response/ResponseParameters'
-export { StandardSchemaV1 } from './validation/StandardSchemaV1'
+export type { GraphQLExecutionResult } from './response/GraphQLExecutionResult'
+export type { GraphQLServerResponse } from './response/GraphQLServerResponse'
+export type { ResponseParameters } from './response/ResponseParameters'
+export type { StandardSchemaV1 } from './validation/StandardSchemaV1'

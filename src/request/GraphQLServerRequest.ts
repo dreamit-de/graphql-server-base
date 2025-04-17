@@ -1,4 +1,4 @@
-import { IncomingHttpHeaders } from 'node:http'
+import type { IncomingHttpHeaders } from 'node:http'
 
 /**
  * Interface for incoming server requests.

@@ -1,4 +1,4 @@
-import { DateFunction } from '@dreamit/funpara'
+import type { DateFunction } from '@dreamit/funpara'
 
 export interface Logger {
     readonly loggerName: string

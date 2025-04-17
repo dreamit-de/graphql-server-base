@@ -10,7 +10,9 @@
         "forceConsistentCasingInFileNames": true,
         "strict": true,
         "declaration": true,
-        "baseUrl": "."
+        "baseUrl": ".",
+        "verbatimModuleSyntax": true,
+        "erasableSyntaxOnly": true
     },
     "include": ["tsup.config.ts", "src/**/*"],
     "exclude": ["node_modules"]
