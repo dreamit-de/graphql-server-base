@@ -9,16 +9,18 @@ import type { StandardSchemaV1 } from '../validation/StandardSchemaV1'
 import type { GraphQLServerResponse } from './GraphQLServerResponse'
 
 export interface ResponseParameters {
+    // Required fields
     readonly context: unknown
-    readonly customHeaders?: Record<string, string>
-    readonly executionResult?: ExecutionResult
+    readonly executionResult: ExecutionResult
     readonly formatErrorFunction: (error: GraphQLError) => GraphQLFormattedError
     readonly logger: Logger
-    readonly request?: GraphQLServerRequest
     readonly response: GraphQLServerResponse
-    readonly responseEndChunkFunction?: (
+    readonly responseEndChunkFunction: (
         executionResult: ExecutionResult | undefined,
     ) => unknown
-    readonly responseStandardSchema?: StandardSchemaV1
+    readonly responseStandardSchema: StandardSchemaV1
+    // Optional fields
+    readonly customHeaders?: Record<string, string>
+    readonly request?: GraphQLServerRequest
     readonly statusCode?: number
 }
