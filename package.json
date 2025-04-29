@@ -53,8 +53,5 @@
     },
     "overrides": {
         "esbuild": "0.25.0"
-    },
-    "dependencies": {
-        "@dreamit/graphql-server-base": "file:dreamit-graphql-server-base-3.0.0.tgz"
     }
 }
