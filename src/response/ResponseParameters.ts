@@ -10,7 +10,7 @@ import type { GraphQLServerResponse } from './GraphQLServerResponse'
 
 export interface ResponseParameters {
     // Required fields
-    readonly context: unknown
+    readonly context: Record<string, unknown>
     readonly executionResult: ExecutionResult
     readonly formatErrorFunction: (error: GraphQLError) => GraphQLFormattedError
     readonly logger: Logger

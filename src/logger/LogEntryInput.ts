@@ -2,7 +2,7 @@ import type { DateFunction } from '@dreamit/funpara'
 import type { LogLevel } from './LogLevel'
 
 export interface LogEntryInput {
-    context: unknown
+    context: Record<string, unknown>
     customErrorName?: string
     dateFunction?: DateFunction
     error?: Error
