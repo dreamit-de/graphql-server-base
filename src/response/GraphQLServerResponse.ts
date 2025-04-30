@@ -1,10 +1,7 @@
 export interface GraphQLServerResponse {
     statusCode: number
     // Either header or setHeader should be provided in order to set the response headers.
-    header?(
-        name: string,
-        value: number | string | ReadonlyArray<string>,
-    ): this
+    header?(name: string, value: number | string | ReadonlyArray<string>): this
     setHeader?(
         name: string,
         value: number | string | ReadonlyArray<string>,

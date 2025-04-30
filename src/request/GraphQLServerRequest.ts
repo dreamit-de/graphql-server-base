@@ -11,5 +11,5 @@ export interface GraphQLServerRequest {
     method?: string
     // Either body or text should be provided in order to get the request body.
     body?: unknown
-    text?: ()=> Promise<string>
+    text?: () => Promise<string>
 }
