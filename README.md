@@ -35,7 +35,7 @@ import { MetricsClient } from '@dreamit/graphql-server-base'
 
 ### Constants
 
-In **error/ErrorNameConstants.ts** constants to identify/display errors are provided. In **request/ContentType.ts** the content type used by [@dreamit/graphql-server][1] is available as enum.
+In **error/ErrorNameConstants.ts** constants to identify/display errors are provided. In **request/ContentType.ts** the content type used by [@dreamit/graphql-server][1] is available as type.
 
 ### Interfaces
 
@@ -43,37 +43,7 @@ Interfaces for creating your own **Logger** or **MetricsClient** are available i
 
 ## Example
 
-The following example shows how a **NoLogger** implementation of the **Logger** interface could be implemented.
-
-```typescript
-import { Logger } from '@dreamit/graphql-server-base'
-
-/**
- * Logger implementation that does not log anything.
- */
-export class NoLogger implements Logger {
-    loggerName: string
-    serviceName: string
-    debugEnabled = false
-
-    constructor(loggerName: string, serviceName: string, debugEnabled = false) {
-        this.loggerName = loggerName
-        this.serviceName = serviceName
-        this.debugEnabled = debugEnabled
-    }
-
-    debug(logMessage: string, context?: unknown): void {}
-    logDebugIfEnabled(message: string, context?: unknown): void {}
-    error(
-        logMessage: string,
-        error: Error,
-        customErrorName: string,
-        context?: unknown,
-    ): void {}
-    info(logMessage: string, context?: unknown): void {}
-    warn(logMessage: string, context?: unknown): void {}
-}
-```
+The `NoLogger` class in the [@dreamit/graphql-testing][5] library can be used as an example on how to implement the `Logger` interface.
 
 ## Contact
 
@@ -88,3 +58,4 @@ graphql-server is under [MIT-License](./LICENSE).
 [2]: https://github.com/graphql/graphql-js
 [3]: https://github.com/dreamit-de/funpara
 [4]: https://standardschema.dev/
+[5]: https://github.com/dreamit-de/graphql-testing
