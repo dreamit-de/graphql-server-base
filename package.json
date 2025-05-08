@@ -1,6 +1,6 @@
 {
     "name": "@dreamit/graphql-server-base",
-    "version": "2.7.0",
+    "version": "3.0.0",
     "description": "Base package for @dreamit/graphql-server",
     "scripts": {
         "build": "tsup-node",

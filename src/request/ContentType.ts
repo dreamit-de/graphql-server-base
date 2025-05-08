@@ -1,6 +1,5 @@
-export enum ContentType {
-    graphql = 'application/graphql',
-    json = 'application/json',
-    unknown = '',
-    urlencoded = 'application/x-www-form-urlencoded',
-}
+export type ContentType =
+    | ''
+    | 'application/graphql'
+    | 'application/json'
+    | 'application/x-www-form-urlencoded'

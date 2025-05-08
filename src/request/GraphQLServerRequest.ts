@@ -1,4 +1,4 @@
-import { IncomingHttpHeaders } from 'node:http'
+import type { IncomingHttpHeaders } from 'node:http'
 
 /**
  * Interface for incoming server requests.
@@ -8,6 +8,8 @@ import { IncomingHttpHeaders } from 'node:http'
 export interface GraphQLServerRequest {
     headers: IncomingHttpHeaders
     url?: string
-    body?: unknown
     method?: string
+    // Either body or text should be provided in order to get the request body.
+    body?: unknown
+    text?: () => Promise<string>
 }
