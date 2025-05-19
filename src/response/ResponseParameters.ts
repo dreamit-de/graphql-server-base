@@ -1,7 +1,7 @@
-import {
-    type ExecutionResult,
+import type {
+    ExecutionResult,
     GraphQLError,
-    type GraphQLFormattedError,
+    GraphQLFormattedError,
 } from 'graphql'
 import type { Logger } from '../logger/Logger'
 import type { GraphQLServerRequest } from '../request/GraphQLServerRequest'

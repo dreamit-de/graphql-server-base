@@ -1,4 +1,4 @@
-import { GraphQLError } from 'graphql'
+import type { GraphQLError } from 'graphql'
 
 export interface AggregateError extends Error {
     errors: GraphQLError[]
