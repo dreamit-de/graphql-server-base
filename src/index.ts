@@ -28,5 +28,6 @@ export { isGraphQLServerRequest } from './request/IsGraphQLServerRequest'
 
 export type { GraphQLExecutionResult } from './response/GraphQLExecutionResult'
 export type { GraphQLServerResponse } from './response/GraphQLServerResponse'
+export type { ResponseFormat } from './response/ResponseFormat'
 export type { ResponseParameters } from './response/ResponseParameters'
 export type { StandardSchemaV1 } from './validation/StandardSchemaV1'
