@@ -7,6 +7,7 @@ import type { Logger } from '../logger/Logger'
 import type { GraphQLServerRequest } from '../request/GraphQLServerRequest'
 import type { StandardSchemaV1 } from '../validation/StandardSchemaV1'
 import type { GraphQLServerResponse } from './GraphQLServerResponse'
+import type { ResponseFormat } from './ResponseFormat'
 
 export interface ResponseParameters {
     // Required fields
@@ -22,5 +23,6 @@ export interface ResponseParameters {
     // Optional fields
     readonly customHeaders?: Record<string, string>
     readonly request?: GraphQLServerRequest
+    readonly responseFormat?: ResponseFormat
     readonly statusCode?: number
 }
