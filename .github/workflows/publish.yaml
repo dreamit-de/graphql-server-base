@@ -22,6 +22,6 @@ jobs:
       - run: npm i --ignore-scripts
       - run: npm run lint
       - run: npm run check
-      - run: npm publish --provenance --access public
+      - run: npm deprecate @dreamit/graphql-server-base "@dreamit/graphql-server-base is deprecated and will no longer be maintained. Use at your own risk!"
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_PUBLISH_TOKEN}}
