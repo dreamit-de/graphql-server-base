@@ -2,6 +2,8 @@
 
 Base package for [@dreamit/graphql-server][1]. Contains constants and interfaces that can be used in graphql-server and extensions.
 
+**Deprecated**: This library will no longer be maintained. Use at your own risk!
+
 ## Installation
 
 ```sh

@@ -10,11 +10,11 @@ Please follow the guideline below to report any vulnerability.
 Following list contains the current and supported versions.
 Please consider using only supported versions.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 3.x.x   | :white_check_mark: |
-| 2.6.x   | :white_check_mark: |
-| < 2.6   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| 3.x.x   | :x:       |
+| 2.6.x   | :x:       |
+| < 2.6   | :x:       |
 
 ## Reporting a Vulnerability
 
